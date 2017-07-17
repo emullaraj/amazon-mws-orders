@@ -1,0 +1,22 @@
+{
+    "name": "emullaraj/amazon-mws-orders",
+    "type": "library",
+    "description": "Amazon Marketplace Web Service Orders PHP Client Library",
+    "keywords": ["amazon", "mws", "orders", "client", "api", "library"],
+    "homepage": "https://developer.amazonservices.com/",
+    "licence": "Apache-2.0",
+    "authors": [
+        {
+          "name": "Eno Mullraj",
+          "email": "emullaraj@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.8",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "include-path": ["src/"]
+}
