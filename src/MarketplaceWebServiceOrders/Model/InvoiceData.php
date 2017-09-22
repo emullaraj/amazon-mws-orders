@@ -65,7 +65,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the InvoiceRequirement property.
      *
      * @param string invoiceRequirement
-     * @return this instance
+     * @return  MarketplaceWebServiceOrders_Model_InvoiceData instance
      */
     public function setInvoiceRequirement($value)
     {
@@ -89,7 +89,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param invoiceRequirement
      *             The new value to set.
      *
-     * @return This instance.
+     * @return  MarketplaceWebServiceOrders_Model_InvoiceData instance.
      */
     public function withInvoiceRequirement($value)
     {
@@ -111,7 +111,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the BuyerSelectedInvoiceCategory property.
      *
      * @param string buyerSelectedInvoiceCategory
-     * @return this instance
+     * @return  MarketplaceWebServiceOrders_Model_InvoiceData instance
      */
     public function setBuyerSelectedInvoiceCategory($value)
     {
@@ -135,7 +135,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param buyerSelectedInvoiceCategory
      *             The new value to set.
      *
-     * @return This instance.
+     * @return  MarketplaceWebServiceOrders_Model_InvoiceData instance.
      */
     public function withBuyerSelectedInvoiceCategory($value)
     {
@@ -157,7 +157,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the InvoiceTitle property.
      *
      * @param string invoiceTitle
-     * @return this instance
+     * @return  MarketplaceWebServiceOrders_Model_InvoiceData instance
      */
     public function setInvoiceTitle($value)
     {
@@ -181,7 +181,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param invoiceTitle
      *             The new value to set.
      *
-     * @return This instance.
+     * @return  MarketplaceWebServiceOrders_Model_InvoiceData instance.
      */
     public function withInvoiceTitle($value)
     {
@@ -203,7 +203,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the InvoiceInformation property.
      *
      * @param string invoiceInformation
-     * @return this instance
+     * @return  MarketplaceWebServiceOrders_Model_InvoiceData instance
      */
     public function setInvoiceInformation($value)
     {
@@ -227,7 +227,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param invoiceInformation
      *             The new value to set.
      *
-     * @return This instance.
+     * @return  MarketplaceWebServiceOrders_Model_InvoiceData instance.
      */
     public function withInvoiceInformation($value)
     {

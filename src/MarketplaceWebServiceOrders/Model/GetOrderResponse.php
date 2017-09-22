@@ -52,7 +52,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the GetOrderResult property.
      *
-     * @return GetOrderResult GetOrderResult.
+     * @return MarketplaceWebServiceOrders_Model_GetOrderResult GetOrderResult.
      */
     public function getGetOrderResult()
     {
@@ -87,7 +87,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param getOrderResult
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_GetOrderResponse instance.
      */
     public function withGetOrderResult($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ResponseMetadata property.
      *
-     * @return ResponseMetadata ResponseMetadata.
+     * @return MarketplaceWebServiceOrders_Model_ResponseMetadata ResponseMetadata.
      */
     public function getResponseMetadata()
     {
@@ -109,7 +109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ResponseMetadata property.
      *
      * @param MarketplaceWebServiceOrders_Model_ResponseMetadata responseMetadata
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_GetOrderResponse instance
      */
     public function setResponseMetadata($value)
     {
@@ -133,7 +133,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param responseMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_GetOrderResponse instance.
      */
     public function withResponseMetadata($value)
     {
@@ -144,7 +144,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ResponseHeaderMetadata property.
      *
-     * @return ResponseHeaderMetadata ResponseHeaderMetadata.
+     * @return MarketplaceWebServiceOrders_Model_ResponseHeaderMetadata ResponseHeaderMetadata.
      */
     public function getResponseHeaderMetadata()
     {
@@ -155,7 +155,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ResponseHeaderMetadata property.
      *
      * @param MarketplaceWebServiceOrders_Model_ResponseHeaderMetadata responseHeaderMetadata
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_GetOrderResponse instance
      */
     public function setResponseHeaderMetadata($value)
     {
@@ -179,7 +179,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param responseHeaderMetadata
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_GetOrderResponse instance.
      */
     public function withResponseHeaderMetadata($value)
     {

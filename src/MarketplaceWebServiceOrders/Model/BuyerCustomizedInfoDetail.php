@@ -59,7 +59,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CustomizedURL property.
      *
      * @param string customizedURL
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_BuyerCustomizedInfoDetail instance
      */
     public function setCustomizedURL($value)
     {
@@ -83,7 +83,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param customizedURL
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_BuyerCustomizedInfoDetail instance.
      */
     public function withCustomizedURL($value)
     {

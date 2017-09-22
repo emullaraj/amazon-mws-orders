@@ -59,7 +59,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the RequestId property.
      *
      * @param string requestId
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ResponseMetadata instance
      */
     public function setRequestId($value)
     {
@@ -83,7 +83,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param requestId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ResponseMetadata instance.
      */
     public function withRequestId($value)
     {

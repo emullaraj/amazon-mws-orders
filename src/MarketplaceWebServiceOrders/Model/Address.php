@@ -79,7 +79,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Name property.
      *
      * @param string name
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setName($value)
     {
@@ -103,7 +103,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param name
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withName($value)
     {
@@ -125,7 +125,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the AddressLine1 property.
      *
      * @param string addressLine1
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setAddressLine1($value)
     {
@@ -149,7 +149,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param addressLine1
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withAddressLine1($value)
     {
@@ -171,7 +171,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the AddressLine2 property.
      *
      * @param string addressLine2
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setAddressLine2($value)
     {
@@ -195,7 +195,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param addressLine2
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withAddressLine2($value)
     {
@@ -217,7 +217,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the AddressLine3 property.
      *
      * @param string addressLine3
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setAddressLine3($value)
     {
@@ -241,7 +241,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param addressLine3
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withAddressLine3($value)
     {
@@ -263,7 +263,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the City property.
      *
      * @param string city
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setCity($value)
     {
@@ -287,7 +287,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param city
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withCity($value)
     {
@@ -309,7 +309,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the County property.
      *
      * @param string county
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setCounty($value)
     {
@@ -333,7 +333,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param county
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withCounty($value)
     {
@@ -355,7 +355,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the District property.
      *
      * @param string district
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setDistrict($value)
     {
@@ -379,7 +379,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param district
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withDistrict($value)
     {
@@ -401,7 +401,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the StateOrRegion property.
      *
      * @param string stateOrRegion
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setStateOrRegion($value)
     {
@@ -425,7 +425,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param stateOrRegion
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withStateOrRegion($value)
     {
@@ -447,7 +447,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PostalCode property.
      *
      * @param string postalCode
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setPostalCode($value)
     {
@@ -471,7 +471,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param postalCode
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withPostalCode($value)
     {
@@ -493,7 +493,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CountryCode property.
      *
      * @param string countryCode
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setCountryCode($value)
     {
@@ -517,7 +517,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param countryCode
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withCountryCode($value)
     {
@@ -539,7 +539,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Phone property.
      *
      * @param string phone
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Address instance
      */
     public function setPhone($value)
     {
@@ -563,7 +563,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param phone
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Address instance.
      */
     public function withPhone($value)
     {

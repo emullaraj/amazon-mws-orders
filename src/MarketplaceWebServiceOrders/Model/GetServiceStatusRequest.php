@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusRequest instance
      */
     public function setSellerId($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusRequest instance.
      */
     public function withSellerId($value)
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusRequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param mwsAuthToken
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusRequest instance.
      */
     public function withMWSAuthToken($value)
     {

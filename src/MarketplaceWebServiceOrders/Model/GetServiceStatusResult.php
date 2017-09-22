@@ -65,7 +65,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Status property.
      *
      * @param string status
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusResult instance
      */
     public function setStatus($value)
     {
@@ -89,7 +89,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param status
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusResult instance.
      */
     public function withStatus($value)
     {
@@ -111,7 +111,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Timestamp property.
      *
      * @param string timestamp
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusResult instance
      */
     public function setTimestamp($value)
     {
@@ -135,7 +135,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param timestamp
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusResult instance.
      */
     public function withTimestamp($value)
     {
@@ -157,7 +157,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MessageId property.
      *
      * @param string messageId
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusResult instance
      */
     public function setMessageId($value)
     {
@@ -181,7 +181,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param messageId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusResult instance.
      */
     public function withMessageId($value)
     {
@@ -192,7 +192,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Messages property.
      *
-     * @return List<Message> Messages.
+     * @return MarketplaceWebServiceOrders_Model_Message[] Messages.
      */
     public function getMessages()
     {
@@ -207,7 +207,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Messages property.
      *
      * @param array messages
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusResult instance
      */
     public function setMessages($value)
     {
@@ -242,7 +242,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param messages
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_GetServiceStatusResult instance.
      */
     public function withMessages()
     {

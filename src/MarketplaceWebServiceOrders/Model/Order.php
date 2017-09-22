@@ -129,7 +129,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the AmazonOrderId property.
      *
      * @param string amazonOrderId
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setAmazonOrderId($value)
     {
@@ -153,7 +153,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param amazonOrderId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withAmazonOrderId($value)
     {
@@ -175,7 +175,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerOrderId property.
      *
      * @param string sellerOrderId
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setSellerOrderId($value)
     {
@@ -199,7 +199,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerOrderId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withSellerOrderId($value)
     {
@@ -221,7 +221,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PurchaseDate property.
      *
      * @param string purchaseDate
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setPurchaseDate($value)
     {
@@ -245,7 +245,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param purchaseDate
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withPurchaseDate($value)
     {
@@ -267,7 +267,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the LastUpdateDate property.
      *
      * @param string lastUpdateDate
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setLastUpdateDate($value)
     {
@@ -291,7 +291,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param lastUpdateDate
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withLastUpdateDate($value)
     {
@@ -313,7 +313,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the OrderStatus property.
      *
      * @param string orderStatus
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setOrderStatus($value)
     {
@@ -337,7 +337,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param orderStatus
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withOrderStatus($value)
     {
@@ -359,7 +359,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FulfillmentChannel property.
      *
      * @param string fulfillmentChannel
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -383,7 +383,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param fulfillmentChannel
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withFulfillmentChannel($value)
     {
@@ -405,7 +405,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SalesChannel property.
      *
      * @param string salesChannel
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setSalesChannel($value)
     {
@@ -429,7 +429,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param salesChannel
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withSalesChannel($value)
     {
@@ -451,7 +451,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the OrderChannel property.
      *
      * @param string orderChannel
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setOrderChannel($value)
     {
@@ -475,7 +475,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param orderChannel
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withOrderChannel($value)
     {
@@ -497,7 +497,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ShipServiceLevel property.
      *
      * @param string shipServiceLevel
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setShipServiceLevel($value)
     {
@@ -521,7 +521,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param shipServiceLevel
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withShipServiceLevel($value)
     {
@@ -532,7 +532,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ShippingAddress property.
      *
-     * @return Address ShippingAddress.
+     * @return MarketplaceWebServiceOrders_Model_Address ShippingAddress.
      */
     public function getShippingAddress()
     {
@@ -543,7 +543,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ShippingAddress property.
      *
      * @param MarketplaceWebServiceOrders_Model_Address shippingAddress
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setShippingAddress($value)
     {
@@ -567,7 +567,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param shippingAddress
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withShippingAddress($value)
     {
@@ -578,7 +578,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the OrderTotal property.
      *
-     * @return Money OrderTotal.
+     * @return MarketplaceWebServiceOrders_Model_Money OrderTotal.
      */
     public function getOrderTotal()
     {
@@ -589,7 +589,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the OrderTotal property.
      *
      * @param MarketplaceWebServiceOrders_Model_Money orderTotal
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setOrderTotal($value)
     {
@@ -613,7 +613,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param orderTotal
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withOrderTotal($value)
     {
@@ -635,7 +635,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the NumberOfItemsShipped property.
      *
      * @param int numberOfItemsShipped
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setNumberOfItemsShipped($value)
     {
@@ -659,7 +659,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param numberOfItemsShipped
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withNumberOfItemsShipped($value)
     {
@@ -681,7 +681,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the NumberOfItemsUnshipped property.
      *
      * @param int numberOfItemsUnshipped
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setNumberOfItemsUnshipped($value)
     {
@@ -705,7 +705,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param numberOfItemsUnshipped
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withNumberOfItemsUnshipped($value)
     {
@@ -716,7 +716,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the PaymentExecutionDetail property.
      *
-     * @return List<PaymentExecutionDetailItem> PaymentExecutionDetail.
+     * @return MarketplaceWebServiceOrders_Model_PaymentExecutionDetailItem[] PaymentExecutionDetail.
      */
     public function getPaymentExecutionDetail()
     {
@@ -731,7 +731,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PaymentExecutionDetail property.
      *
      * @param array paymentExecutionDetail
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setPaymentExecutionDetail($value)
     {
@@ -766,7 +766,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param paymentExecutionDetail
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withPaymentExecutionDetail()
     {
@@ -791,7 +791,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PaymentMethod property.
      *
      * @param string paymentMethod
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setPaymentMethod($value)
     {
@@ -815,7 +815,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param paymentMethod
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withPaymentMethod($value)
     {
@@ -826,7 +826,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the PaymentMethodDetails property.
      *
-     * @return List<String> PaymentMethodDetails.
+     * @return array PaymentMethodDetails.
      */
     public function getPaymentMethodDetails()
     {
@@ -841,7 +841,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PaymentMethodDetails property.
      *
      * @param array paymentMethodDetails
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setPaymentMethodDetails($value)
     {
@@ -876,7 +876,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param paymentMethodDetails
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withPaymentMethodDetails()
     {
@@ -901,7 +901,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MarketplaceId property.
      *
      * @param string marketplaceId
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setMarketplaceId($value)
     {
@@ -925,7 +925,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param marketplaceId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withMarketplaceId($value)
     {
@@ -947,7 +947,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the BuyerEmail property.
      *
      * @param string buyerEmail
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setBuyerEmail($value)
     {
@@ -971,7 +971,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param buyerEmail
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withBuyerEmail($value)
     {
@@ -993,7 +993,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the BuyerName property.
      *
      * @param string buyerName
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setBuyerName($value)
     {
@@ -1017,7 +1017,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param buyerName
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withBuyerName($value)
     {
@@ -1039,7 +1039,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the BuyerCounty property.
      *
      * @param string buyerCounty
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setBuyerCounty($value)
     {
@@ -1063,7 +1063,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param buyerCounty
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withBuyerCounty($value)
     {
@@ -1074,7 +1074,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the BuyerTaxInfo property.
      *
-     * @return BuyerTaxInfo BuyerTaxInfo.
+     * @return MarketplaceWebServiceOrders_Model_BuyerTaxInfo BuyerTaxInfo.
      */
     public function getBuyerTaxInfo()
     {
@@ -1085,7 +1085,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the BuyerTaxInfo property.
      *
      * @param MarketplaceWebServiceOrders_Model_BuyerTaxInfo buyerTaxInfo
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setBuyerTaxInfo($value)
     {
@@ -1109,7 +1109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param buyerTaxInfo
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withBuyerTaxInfo($value)
     {
@@ -1131,7 +1131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ShipmentServiceLevelCategory property.
      *
      * @param string shipmentServiceLevelCategory
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setShipmentServiceLevelCategory($value)
     {
@@ -1155,7 +1155,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param shipmentServiceLevelCategory
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withShipmentServiceLevelCategory($value)
     {
@@ -1187,7 +1187,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ShippedByAmazonTFM property.
      *
      * @param bool shippedByAmazonTFM
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setShippedByAmazonTFM($value)
     {
@@ -1211,7 +1211,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param shippedByAmazonTFM
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withShippedByAmazonTFM($value)
     {
@@ -1233,7 +1233,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the TFMShipmentStatus property.
      *
      * @param string tfmShipmentStatus
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setTFMShipmentStatus($value)
     {
@@ -1257,7 +1257,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param tfmShipmentStatus
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withTFMShipmentStatus($value)
     {
@@ -1279,7 +1279,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CbaDisplayableShippingLabel property.
      *
      * @param string cbaDisplayableShippingLabel
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setCbaDisplayableShippingLabel($value)
     {
@@ -1303,7 +1303,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param cbaDisplayableShippingLabel
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withCbaDisplayableShippingLabel($value)
     {
@@ -1325,7 +1325,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the OrderType property.
      *
      * @param string orderType
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setOrderType($value)
     {
@@ -1349,7 +1349,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param orderType
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withOrderType($value)
     {
@@ -1371,7 +1371,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the EarliestShipDate property.
      *
      * @param string earliestShipDate
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setEarliestShipDate($value)
     {
@@ -1395,7 +1395,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param earliestShipDate
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withEarliestShipDate($value)
     {
@@ -1417,7 +1417,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the LatestShipDate property.
      *
      * @param string latestShipDate
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setLatestShipDate($value)
     {
@@ -1441,7 +1441,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param latestShipDate
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withLatestShipDate($value)
     {
@@ -1463,7 +1463,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the EarliestDeliveryDate property.
      *
      * @param string earliestDeliveryDate
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setEarliestDeliveryDate($value)
     {
@@ -1487,7 +1487,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param earliestDeliveryDate
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withEarliestDeliveryDate($value)
     {
@@ -1509,7 +1509,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the LatestDeliveryDate property.
      *
      * @param string latestDeliveryDate
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setLatestDeliveryDate($value)
     {
@@ -1533,7 +1533,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param latestDeliveryDate
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withLatestDeliveryDate($value)
     {
@@ -1565,7 +1565,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IsBusinessOrder property.
      *
      * @param bool isBusinessOrder
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setIsBusinessOrder($value)
     {
@@ -1589,7 +1589,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param isBusinessOrder
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withIsBusinessOrder($value)
     {
@@ -1611,7 +1611,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PurchaseOrderNumber property.
      *
      * @param string purchaseOrderNumber
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setPurchaseOrderNumber($value)
     {
@@ -1635,7 +1635,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param purchaseOrderNumber
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withPurchaseOrderNumber($value)
     {
@@ -1667,7 +1667,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IsPrime property.
      *
      * @param bool isPrime
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setIsPrime($value)
     {
@@ -1691,7 +1691,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param isPrime
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withIsPrime($value)
     {
@@ -1723,7 +1723,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IsPremiumOrder property.
      *
      * @param bool isPremiumOrder
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setIsPremiumOrder($value)
     {
@@ -1747,7 +1747,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param isPremiumOrder
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withIsPremiumOrder($value)
     {
@@ -1769,7 +1769,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the ReplacedOrderId property.
      *
      * @param string replacedOrderId
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setReplacedOrderId($value)
     {
@@ -1793,7 +1793,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param replacedOrderId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withReplacedOrderId($value)
     {
@@ -1825,7 +1825,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the IsReplacementOrder property.
      *
      * @param bool isReplacementOrder
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Order instance
      */
     public function setIsReplacementOrder($value)
     {
@@ -1849,7 +1849,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param isReplacementOrder
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Order instance.
      */
     public function withIsReplacementOrder($value)
     {

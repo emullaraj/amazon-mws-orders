@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CurrencyCode property.
      *
      * @param string currencyCode
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Money instance
      */
     public function setCurrencyCode($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param currencyCode
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Money instance.
      */
     public function withCurrencyCode($value)
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Amount property.
      *
      * @param string amount
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Money instance
      */
     public function setAmount($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param amount
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Money instance.
      */
     public function withAmount($value)
     {

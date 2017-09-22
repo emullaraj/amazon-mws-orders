@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Name property.
      *
      * @param string name
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_TaxClassification instance
      */
     public function setName($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param name
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_TaxClassification instance.
      */
     public function withName($value)
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Value property.
      *
      * @param string value
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_TaxClassification instance
      */
     public function setValue($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param value
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_TaxClassification instance.
      */
     public function withValue($value)
     {

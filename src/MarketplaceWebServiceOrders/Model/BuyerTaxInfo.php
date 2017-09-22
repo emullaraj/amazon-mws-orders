@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CompanyLegalName property.
      *
      * @param string companyLegalName
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_BuyerTaxInfo instance
      */
     public function setCompanyLegalName($value)
     {
@@ -87,7 +87,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param companyLegalName
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_BuyerTaxInfo instance.
      */
     public function withCompanyLegalName($value)
     {
@@ -109,7 +109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the TaxingRegion property.
      *
      * @param string taxingRegion
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_BuyerTaxInfo instance
      */
     public function setTaxingRegion($value)
     {
@@ -133,7 +133,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param taxingRegion
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_BuyerTaxInfo instance.
      */
     public function withTaxingRegion($value)
     {
@@ -144,7 +144,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the TaxClassifications property.
      *
-     * @return List<TaxClassification> TaxClassifications.
+     * @return MarketplaceWebServiceOrders_Model_TaxClassification[] TaxClassifications.
      */
     public function getTaxClassifications()
     {
@@ -159,7 +159,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the TaxClassifications property.
      *
      * @param array taxClassifications
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_BuyerTaxInfo instance
      */
     public function setTaxClassifications($value)
     {
@@ -194,7 +194,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param taxClassifications
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_BuyerTaxInfo instance.
      */
     public function withTaxClassifications()
     {

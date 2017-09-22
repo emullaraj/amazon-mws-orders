@@ -48,7 +48,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Orders property.
      *
-     * @return List<Order> Orders.
+     * @return MarketplaceWebServiceOrders_Model_Order[] Orders.
      */
     public function getOrders()
     {
@@ -63,7 +63,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Orders property.
      *
      * @param array orders
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_GetOrderResult instance
      */
     public function setOrders($value)
     {
@@ -98,7 +98,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param orders
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_GetOrderResult instance.
      */
     public function withOrders()
     {

@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerId property.
      *
      * @param string sellerId
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setSellerId($value)
     {
@@ -109,7 +109,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withSellerId($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MWSAuthToken property.
      *
      * @param string mwsAuthToken
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -155,7 +155,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param mwsAuthToken
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withMWSAuthToken($value)
     {
@@ -177,7 +177,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CreatedAfter property.
      *
      * @param string createdAfter
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setCreatedAfter($value)
     {
@@ -201,7 +201,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param createdAfter
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withCreatedAfter($value)
     {
@@ -223,7 +223,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the CreatedBefore property.
      *
      * @param string createdBefore
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setCreatedBefore($value)
     {
@@ -247,7 +247,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param createdBefore
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withCreatedBefore($value)
     {
@@ -269,7 +269,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the LastUpdatedAfter property.
      *
      * @param string lastUpdatedAfter
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setLastUpdatedAfter($value)
     {
@@ -293,7 +293,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param lastUpdatedAfter
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withLastUpdatedAfter($value)
     {
@@ -315,7 +315,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the LastUpdatedBefore property.
      *
      * @param string lastUpdatedBefore
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setLastUpdatedBefore($value)
     {
@@ -339,7 +339,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param lastUpdatedBefore
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withLastUpdatedBefore($value)
     {
@@ -365,7 +365,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the OrderStatus property.
      *
      * @param array orderStatus
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setOrderStatus($value)
     {
@@ -400,7 +400,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param orderStatus
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withOrderStatus()
     {
@@ -429,7 +429,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MarketplaceId property.
      *
      * @param array marketplaceId
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setMarketplaceId($value)
     {
@@ -464,7 +464,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param marketplaceId
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withMarketplaceId()
     {
@@ -493,7 +493,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the FulfillmentChannel property.
      *
      * @param array fulfillmentChannel
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setFulfillmentChannel($value)
     {
@@ -528,7 +528,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param fulfillmentChannel
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withFulfillmentChannel()
     {
@@ -557,7 +557,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PaymentMethod property.
      *
      * @param array paymentMethod
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setPaymentMethod($value)
     {
@@ -592,7 +592,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param paymentMethod
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withPaymentMethod()
     {
@@ -617,7 +617,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the BuyerEmail property.
      *
      * @param string buyerEmail
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setBuyerEmail($value)
     {
@@ -641,7 +641,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param buyerEmail
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withBuyerEmail($value)
     {
@@ -663,7 +663,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the SellerOrderId property.
      *
      * @param string sellerOrderId
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setSellerOrderId($value)
     {
@@ -687,7 +687,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param sellerOrderId
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withSellerOrderId($value)
     {
@@ -709,7 +709,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the MaxResultsPerPage property.
      *
      * @param int maxResultsPerPage
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setMaxResultsPerPage($value)
     {
@@ -733,7 +733,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param maxResultsPerPage
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withMaxResultsPerPage($value)
     {
@@ -758,8 +758,8 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Set the value of the TFMShipmentStatus property.
      *
-     * @param array tfmShipmentStatus
-     * @return this instance
+     * @param array tfmShipmentStatu
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance
      */
     public function setTFMShipmentStatus($value)
     {
@@ -794,7 +794,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param tfmShipmentStatus
      *             New values to add.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_ListOrdersRequest instance.
      */
     public function withTFMShipmentStatus()
     {

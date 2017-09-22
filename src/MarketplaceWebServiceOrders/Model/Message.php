@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Locale property.
      *
      * @param string locale
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Message instance
      */
     public function setLocale($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param locale
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Message instance.
      */
     public function withLocale($value)
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Text property.
      *
      * @param string text
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_Message instance
      */
     public function setText($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param text
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_Message instance.
      */
     public function withText($value)
     {

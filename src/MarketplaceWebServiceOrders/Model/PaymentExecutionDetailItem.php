@@ -50,7 +50,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the Payment property.
      *
-     * @return Money Payment.
+     * @return MarketplaceWebServiceOrders_Model_Money Payment.
      */
     public function getPayment()
     {
@@ -61,7 +61,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the Payment property.
      *
      * @param MarketplaceWebServiceOrders_Model_Money payment
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_PaymentExecutionDetailItem instance
      */
     public function setPayment($value)
     {
@@ -85,7 +85,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param payment
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_PaymentExecutionDetailItem instance.
      */
     public function withPayment($value)
     {
@@ -107,7 +107,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * Set the value of the PaymentMethod property.
      *
      * @param string paymentMethod
-     * @return this instance
+     * @return MarketplaceWebServiceOrders_Model_PaymentExecutionDetailItem instance
      */
     public function setPaymentMethod($value)
     {
@@ -131,7 +131,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
      * @param paymentMethod
      *             The new value to set.
      *
-     * @return This instance.
+     * @return MarketplaceWebServiceOrders_Model_PaymentExecutionDetailItem instance.
      */
     public function withPaymentMethod($value)
     {
