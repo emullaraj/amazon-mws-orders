@@ -52,7 +52,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     /**
      * Get the value of the ListOrderItemsResult property.
      *
-     * @return ListOrderItemsResult ListOrderItemsResult.
+     * @return MarketplaceWebServiceOrders_Model_ListOrderItemsResult ListOrderItemsResult.
      */
     public function getListOrderItemsResult()
     {
