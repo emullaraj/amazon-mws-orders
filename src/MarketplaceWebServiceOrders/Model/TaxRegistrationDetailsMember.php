@@ -25,7 +25,7 @@ require_once(dirname(__FILE__).'/../Model.php');
 
 
 /**
- * MarketplaceWebServiceOrders_Model_TaxRegistrationDetails
+ * MarketplaceWebServiceOrders_Model_TaxRegistrationDetailsMember
  *
  * Properties:
  * <ul>
