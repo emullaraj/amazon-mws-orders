@@ -47,6 +47,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
  * <li>PaymentMethod: string</li>
  * <li>PaymentMethodDetails: array</li>
  * <li>MarketplaceId: string</li>
+ * <li>TaxRegistrationDetails: MarketplaceWebServiceOrders_Model_TaxRegistrationDetails</li>
  * <li>BuyerEmail: string</li>
  * <li>BuyerName: string</li>
  * <li>BuyerCounty: string</li>
@@ -92,6 +93,7 @@ require_once (dirname(__FILE__) . '/../Model.php');
     'PaymentMethod' => array('FieldValue' => null, 'FieldType' => 'string'),
     'PaymentMethodDetails' => array('FieldValue' => array(), 'FieldType' => array('string'), 'ListMemberName' => 'PaymentMethodDetail'),
     'MarketplaceId' => array('FieldValue' => null, 'FieldType' => 'string'),
+    'TaxRegistrationDetails' => array('FieldValue' => null, 'FieldType' => 'MarketplaceWebServiceOrders_Model_TaxRegistrationDetails'),
     'BuyerEmail' => array('FieldValue' => null, 'FieldType' => 'string'),
     'BuyerName' => array('FieldValue' => null, 'FieldType' => 'string'),
     'BuyerCounty' => array('FieldValue' => null, 'FieldType' => 'string'),
@@ -932,6 +934,50 @@ require_once (dirname(__FILE__) . '/../Model.php');
         $this->setMarketplaceId($value);
         return $this;
     }
+
+     /**
+      * Get the value of the TaxRegistrationDetails property.
+      *
+      * @return MarketplaceWebServiceOrders_Model_TaxRegistrationDetails
+      */
+     public function getTaxRegistrationDetails()
+     {
+         return $this->_fields['TaxRegistrationDetails']['FieldValue'];
+     }
+
+     /**
+      * Set the value of the TaxRegistrationDetails property.
+      *
+      * @param MarketplaceWebServiceOrders_Model_TaxRegistrationDetails $value
+      * @return MarketplaceWebServiceOrders_Model_Order instance
+      */
+     public function setTaxRegistrationDetails($value)
+     {
+         $this->_fields['TaxRegistrationDetails']['FieldValue'] = $value;
+         return $this;
+     }
+
+     /**
+      * Check to see if TaxRegistrationDetails is set.
+      *
+      * @return true if TaxRegistrationDetails is set.
+      */
+     public function isSetTaxRegistrationDetails()
+     {
+         return !is_null($this->_fields['TaxRegistrationDetails']['FieldValue']);
+     }
+
+     /**
+      * Set the value of TaxRegistrationDetails, return this.
+      *
+      * @param MarketplaceWebServiceOrders_Model_TaxRegistrationDetails $value
+      * @return MarketplaceWebServiceOrders_Model_Order instance.
+      */
+     public function withTaxRegistrationDetails($value)
+     {
+         $this->setTaxRegistrationDetails($value);
+         return $this;
+     }
 
     /**
      * Get the value of the BuyerEmail property.
